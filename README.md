@@ -39,7 +39,7 @@ This is Project ζ, a hack n slash game where the player character has telekenet
 - Some models like the main characters sword were imported from [Sketchfab](https://sketchfab.com/feed)
 - Character models and animations were imported from [Mixamo](https://www.mixamo.com/#/)
 - Sound effects were downloaded from [Pixabay](https://pixabay.com/)
-- The UI and buttons for the games various menu's (This includes tutorial messages) were all created in and imported by my from [Figma](https://www.figma.com/design/lvtI4KNCJAmEmX7DtD71i0/Creating-Buttons?node-id=0-1&t=9jMFo2Cei2CKfRiH-1)
+- The UI and buttons for the games various menu's (This includes tutorial messages) were all created in and imported by me from [Figma](https://www.figma.com/design/lvtI4KNCJAmEmX7DtD71i0/Creating-Buttons?node-id=0-1&t=9jMFo2Cei2CKfRiH-1)
 
 ## Games that were inspiration for Project ζ
 - The Devil May Cry Series
