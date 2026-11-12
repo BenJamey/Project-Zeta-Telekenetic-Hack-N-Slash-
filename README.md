@@ -65,7 +65,7 @@ This is Project ζ, a hack n slash game where the player character has telekenet
   * **Hold the Right mouse button** while aiming at an object to grab it (Release the Right mouse button to drop it), then hold to charge and release the left mouse button to throw it
   * **Press the right mouse button** while aiming at:
     * **An enemy** to make them levitate in the air briefly
-    * **An environmental hazard** (Indicated bu uit's unqiue purplish blue outline) to trigger it
+    * **An environmental hazard** (Indicated by it's unqiue purplish blue outline) to trigger it
   * **Hold the Left mouse button** to charge, then release for a 360 psychic shock wave attack
   * Press the **middle mouse button (The scroll wheel)** to ready the teleport. While the teleport is armed:
     * Scroll **up and down** on the **middle mouse button** increase increase and decrease teleport distance respectivly
