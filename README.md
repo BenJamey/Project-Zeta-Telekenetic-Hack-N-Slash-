@@ -1,5 +1,5 @@
 # Project ζ (Zeta)
-This is Project ζ, a hack n slash game where the player character has telekenetic powers (The ability to pick up and throw objects with his mind). The goal is to escape a underground facility by going through various rooms defeating enemies and solving simple platforming puzzles/challenges. At the end of each level your ranked from bronze to gold based on how high you're score was and the game is designed to reward more points by making use of your powers in creative ways. This therefore pushs the player to make full use of they're abilities and too use the environment in creative ways to not only get a good score, but also to dspatch enemies and quickly and efficiently as possible
+This is Project ζ, a hack n slash game where the player character has telekenetic powers (The ability to pick up and throw objects with his mind). The goal is to escape a underground facility by going through various rooms defeating enemies and solving simple platforming puzzles/challenges. At the end of each level your ranked from bronze to gold based on how high you're score was and the game is designed to reward more points by making use of your powers in creative ways. This therefore pushes the player to make full use of they're abilities and too use the environment in creative ways to not only get a good score, but also to dspatch enemies and quickly and efficiently as possible
 
 ## Core features
 * Melee attacks (Light and heavy)
@@ -10,17 +10,17 @@ This is Project ζ, a hack n slash game where the player character has telekenet
   * Being able to make enemies levitate in the air for about 4 seconds
   * A 360 area effect shockwave that'll knock enemies back
   * All these abilities drain from a psy energy meter that recharges either on it's own when not aiming, or when landing a melee attack
-* The ability to aim and teleport (Used for either getting distance between you and enemie, or for navigating levels). This requires you to have 1 of 2 teleport bars/charges, which will automatically restore after landing (Can only teleport 2 times before needing to land)
+* The ability to aim and teleport (Used for either getting distance between you and enemie, or for navigating levels). This requires you to have 1 of 2 teleport bars/charges, which will start to gradually recharge after landing (Can only teleport a maximum of 2 times before needing to land)
 * A combo counter and scoring system that works as follows:
-  * Melee attacks that increase the hit counter by 1
+  * Melee attacks increase the hit counter by 1 hit
   * Throwable objects and environmental hazards increase it varrying amounts depending on the object/hazard (Wooden boxes increase it by 3 hits, and droppable boxes by 4 hits per enemy)
   * Hitting an enemy that's stunned (From parrying they're attack) or levitating will increase the hit counter by 1 extra hit than what it would normally (Melee attack by 2, wooden box by 4 and droppable box by 5)
   * When defeating an enemy points are added both to the main score and a set of bonus points below the hit counter. When the hit counter ends (About 10 seconds after the last hit) you earn bonus points increased by a multiplier from the hit counter
-    * Example: 655 bonus points and a 51 hit combo counter will graqt 655 X 1.51 = 989 bonus points
-  * Getting hit will end the combo instantly causing you to loose all the bonus points, and parrying an attack will reset the combo counter
+    * Example: 655 bonus points and a 51 hit combo counter will grant: 655 X 1.51 = 989 bonus points
+  * Getting hit will end the combo instantly causing you to loose all the bonus points, and parrying an attack will reset the combo counter timer
   * Performing certain actions will add small mini point bonuses to the bonus points (Note: If you take damage before the combo ends you loose these points as well). Some of these include:
     * Hitting 3, 6 or 9+ enemies with certain hazards (For droppable boxes this grants 15, 30 and 45 bonus points respectivly)
-    * Hitting an enemy that's levitating with a throwable object (15 bonus points)
+    * Hitting an enemy that's levitating or stunned with a throwable object (15 bonus points)
     * Finishing a fight without taking any damage (10 bonus points)
 * Hit point and shield meter system:
   * Instead of a traditional health bar, you have a set of 5 hit points, and getting hit with a melee attack will drain 1 hit point (Hazards and explosives will mostly drain 2 hit points), which is what ends the combo
@@ -38,21 +38,21 @@ This is Project ζ, a hack n slash game where the player character has telekenet
 - Most level assets/models, and textures were imported from [Fab](https://www.fab.com/)
 - Some models like the main characters sword were imported from [Sketchfab](https://sketchfab.com/feed)
 - Character models and animations were imported from [Mixamo](https://www.mixamo.com/#/)
-- Sound effects were downloaded from [Pixabay](https://pixabay.com/)
+- Sound effects and audio were downloaded from [Pixabay](https://pixabay.com/)
 - The UI and buttons for the games various menu's (This includes tutorial messages) were all created in and imported by me from [Figma](https://www.figma.com/design/lvtI4KNCJAmEmX7DtD71i0/Creating-Buttons?node-id=0-1&t=9jMFo2Cei2CKfRiH-1)
 
 ## Games that were inspiration for Project ζ
 - The Devil May Cry Series
-- The God of War series (Both the Classic Greek and Modern norse games)
+- The God of War series (Both the Classic Greek and Modern Norse games)
 - The Control games (As in the game franchise named Control)
 - Insomniacs Spider Man Games
 
 ## Key bindings
 * Use the **WASD** or **arrow keys** to move the player
-* Move the **mouse** to control the camera
+* Move the **mouse** to move the camera
 * Press the **space bar** to jump
 * Hold the **B Key** to block incoming attacks
-* Press the **left mouse button** for quick attacks(Attacks that are fast but weak):
+* Press the **left mouse button** for quick attacks (Attacks that are fast but weak):
   * **Press** 4 times in a sequence for a 4 hit combo
   * **Hold** for a quick 360 spin slash
   * **Press while blocking** for a lunging slash attack
@@ -60,18 +60,18 @@ This is Project ζ, a hack n slash game where the player character has telekenet
   * **Press** 3 times in a sequence for a 3 hit combo
   * **Hold** for a slow but powerful vertical sword slam
   * **Press while blocking** for a slow 2 hit swing attack
-* Press **left CTRL** while moving to dodge incoming enemy attacks (You're invinsible during the dodge animation)
+* Press **left CTRL while moving** to dodge incoming enemy attacks (You're invinsible during the dodge animation)
 * Hold **Left Shift** to aim. While aiming:
-  * **Hold the Right mouse button** while aiming at an object to grab it (Release the Right mouse button to drop it), then hold to charge and release the left mouse button to throw it
+  * **Hold the Right mouse button** while aiming at an object to grab it (Release the Right mouse button to drop it), then hold **the left mouse button** to charge, then release to throw it (Note: You can release left shift when carrying something and you'll still aim)
   * **Press the right mouse button** while aiming at:
     * **An enemy** to make them levitate in the air briefly
     * **An environmental hazard** (Indicated by it's unqiue purplish blue outline) to trigger it
-  * **Hold the Left mouse button** to charge, then release for a 360 psychic shock wave attack
-  * Press the **middle mouse button (The scroll wheel)** to ready the teleport. While the teleport is armed:
-    * Scroll **up and down** on the **middle mouse button** increase increase and decrease teleport distance respectivly
+  * **Hold the Left mouse button** to charge, then release for a 360 psychic shock wave attack that'll knock enemies back
+  * Press the **middle mouse button (The scroll wheel)** while aiming prepare to teleport (Press again to toggle it off). While the teleport is armed:
+    * Scroll **up and down** on the **middle mouse button** to increase and decrease teleport distance respectivly
     * Press **space bar** to teleport to desired location
 * Press the **P Key** to pause the game
-* Press the **H Key** to use 1 healing item to restore 1 hit point and fully restore shield meter
+* Press the **H Key** to use 1 healing item to restore 1 hit point and fully restore shield meter (You can find more healing items in the levels, they glow green)
 
 ## How to start my project
 To start my projectm, go into my packaged file (Named Project_Zeta_V(Insert current build number)) then select the **"Project_Zeta"** Aplication (Not the folder) to launch the game. I would recommend deleting any existing saves so you can start from scratch as best as possible. Note that if the game asks if your sure you'd like to run it, it should be fine.
